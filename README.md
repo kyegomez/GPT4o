@@ -4,6 +4,9 @@
 Community Open Source Implementation of GPT4o in PyTorch
 
 
+## Install
+
+
 # Architecture
 - TikToken Tokenzier: We know fursure the tokenizer. [Which is here](https://github.com/openai/tiktoken)
 - Model understands Images and Audio Natively. There are 2 approaches, process them natively or use encoders for each. I think here they're using encoders like whisper and vit for simplicity and brevity.

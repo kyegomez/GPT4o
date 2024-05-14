@@ -3,15 +3,15 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "paper"
+name = "gpt4o"
 version = "0.0.1"
-description = "Paper - Pytorch"
+description = "gpt4o - Pytorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
-homepage = "https://github.com/kyegomez/paper"
-documentation = "https://github.com/kyegomez/paper"  # Add this if you have documentation.
+homepage = "https://github.com/kyegomez/gpt4o"
+documentation = "https://github.com/kyegomez/gpt4o"  # Add this if you have documentation.
 readme = "README.md"  # Assuming you have a README.md
-repository = "https://github.com/kyegomez/paper"
+repository = "https://github.com/kyegomez/gpt4o"
 keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -22,13 +22,10 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-swarms = "*"
+python = "^3.10"
+einops = "*"
 zetascale = "*"
-
-[tool.poetry.dev-dependencies]
-# Add development dependencies here
-
+torch = "*"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1.6"
