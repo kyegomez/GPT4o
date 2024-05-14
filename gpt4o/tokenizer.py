@@ -7,10 +7,12 @@ class GPT4oTokenizer:
         model_name: str = "gpt-4o",
         base_model: str = "o200k_base",
         *args,
-        **kwargs
-    ):  
-        self.tokenizer = tiktoken.encoding_for_model(model_name, *args, **kwargs)
-    
+        **kwargs,
+    ):
+        self.tokenizer = tiktoken.encoding_for_model(
+            model_name, *args, **kwargs
+        )
+
     def encode(self, text: str, *args, **kwargs):
         """
         Encodes the given text into a list of tokens.

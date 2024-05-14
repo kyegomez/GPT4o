@@ -13,7 +13,6 @@ Community Open Source Implementation of GPT4o in PyTorch
 - Using DALLE3 as the output head to generate images
 - Tokens to denote when to generate an image or audio
 - Whisper output head for the audio outputs
-- 
 
 # License
 MIT
